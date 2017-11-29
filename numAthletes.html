@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="929e3116-2c22-43cd-b0aa-758af83bc1ba"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"359099a5-c13b-4bc4-848d-0ac594cf079d":{"roots":{"references":[{"attributes":{"fill_color":{"field":"x","transform":{"id":"b06d5c96-1222-4949-88ad-e7acbaebd1d3","type":"CategoricalColorMapper"}},"line_color":{"value":"white"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"0bdbf955-caba-4ecc-8317-d349f9ffff58","type":"VBar"},{"attributes":{"callback":null,"column_names":["x","counts"],"data":{"counts":[21.91,15.6,21.83,19.0,23.67,16.6,22.25,15.8,21.96,21.17,22.89,16.5,22.34,16.03,22.35,18.56,22.9,16.0,22.15,16.17,21.23,18.33,22.9,15.88,22.48,16.28,21.58,18.0,23.6,16.63,22.3,16.41,21.5,17.56,24.5,19.13,22.31,16.68,21.04,17.78,24.0,19.25,22.35,16.87,21.69,17.89,24.6,19.75,22.65,17.01,19.97,16.0,24.4,20.75,22.89,17.23,19.28,15.64,24.1,18.44,23.01,17.41,19.51,16.22,25.7,18.89],"x":[["2004","D1 Mens"],["2004","D1 Womens"],["2004","D2 Mens"],["2004","D2 Womens"],["2004","D3 Mens"],["2004","D3 Womens"],["2005","D1 Mens"],["2005","D1 Womens"],["2005","D2 Mens"],["2005","D2 Womens"],["2005","D3 Mens"],["2005","D3 Womens"],["2006","D1 Mens"],["2006","D1 Womens"],["2006","D2 Mens"],["2006","D2 Womens"],["2006","D3 Mens"],["2006","D3 Womens"],["2007","D1 Mens"],["2007","D1 Womens"],["2007","D2 Mens"],["2007","D2 Womens"],["2007","D3 Mens"],["2007","D3 Womens"],["2008","D1 Mens"],["2008","D1 Womens"],["2008","D2 Mens"],["2008","D2 Womens"],["2008","D3 Mens"],["2008","D3 Womens"],["2009","D1 Mens"],["2009","D1 Womens"],["2009","D2 Mens"],["2009","D2 Womens"],["2009","D3 Mens"],["2009","D3 Womens"],["2010","D1 Mens"],["2010","D1 Womens"],["2010","D2 Mens"],["2010","D2 Womens"],["2010","D3 Mens"],["2010","D3 Womens"],["2011","D1 Mens"],["2011","D1 Womens"],["2011","D2 Mens"],["2011","D2 Womens"],["2011","D3 Mens"],["2011","D3 Womens"],["2012","D1 Mens"],["2012","D1 Womens"],["2012","D2 Mens"],["2012","D2 Womens"],["2012","D3 Mens"],["2012","D3 Womens"],["2013","D1 Mens"],["2013","D1 Womens"],["2013","D2 Mens"],["2013","D2 Womens"],["2013","D3 Mens"],["2013","D3 Womens"],["2014","D1 Mens"],["2014","D1 Womens"],["2014","D2 Mens"],["2014","D2 Womens"],["2014","D3 Mens"],["2014","D3 Womens"]]}},"id":"dbe9ac5f-c465-4fa1-b1cc-b6c2b1b3bd12","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"bacec767-b5b8-43a0-9547-245d123592bb","type":"VBar"},{"attributes":{"end":2,"factors":["D1 Mens","D1 Womens","D2 Mens","D2 Womens","D3 Mens","D3 Womens"],"palette":["#F9C7A8","#F39A9B","#EC6E8D","#D74A88","#A93790","#7B2397"],"start":1},"id":"b06d5c96-1222-4949-88ad-e7acbaebd1d3","type":"CategoricalColorMapper"},{"attributes":{"callback":null,"factors":[["2004","D1 Mens"],["2004","D1 Womens"],["2004","D2 Mens"],["2004","D2 Womens"],["2004","D3 Mens"],["2004","D3 Womens"],["2005","D1 Mens"],["2005","D1 Womens"],["2005","D2 Mens"],["2005","D2 Womens"],["2005","D3 Mens"],["2005","D3 Womens"],["2006","D1 Mens"],["2006","D1 Womens"],["2006","D2 Mens"],["2006","D2 Womens"],["2006","D3 Mens"],["2006","D3 Womens"],["2007","D1 Mens"],["2007","D1 Womens"],["2007","D2 Mens"],["2007","D2 Womens"],["2007","D3 Mens"],["2007","D3 Womens"],["2008","D1 Mens"],["2008","D1 Womens"],["2008","D2 Mens"],["2008","D2 Womens"],["2008","D3 Mens"],["2008","D3 Womens"],["2009","D1 Mens"],["2009","D1 Womens"],["2009","D2 Mens"],["2009","D2 Womens"],["2009","D3 Mens"],["2009","D3 Womens"],["2010","D1 Mens"],["2010","D1 Womens"],["2010","D2 Mens"],["2010","D2 Womens"],["2010","D3 Mens"],["2010","D3 Womens"],["2011","D1 Mens"],["2011","D1 Womens"],["2011","D2 Mens"],["2011","D2 Womens"],["2011","D3 Mens"],["2011","D3 Womens"],["2012","D1 Mens"],["2012","D1 Womens"],["2012","D2 Mens"],["2012","D2 Womens"],["2012","D3 Mens"],["2012","D3 Womens"],["2013","D1 Mens"],["2013","D1 Womens"],["2013","D2 Mens"],["2013","D2 Womens"],["2013","D3 Mens"],["2013","D3 Womens"],["2014","D1 Mens"],["2014","D1 Womens"],["2014","D2 Mens"],["2014","D2 Womens"],["2014","D3 Mens"],["2014","D3 Womens"]],"range_padding":0.1},"id":"5a3e15ac-e1bf-4bfc-9471-e7f269716b12","type":"FactorRange"},{"attributes":{"plot":null,"text":"Average Number of Athletes Per Year"},"id":"bac81ad7-8258-4e48-b24c-1bf3eb70a141","type":"Title"},{"attributes":{"dimension":1,"plot":{"id":"83f97ff1-195e-4a5c-9ea7-1b85406a63d1","subtype":"Figure","type":"Plot"},"ticker":{"id":"b49102d7-09dc-419e-9b76-0454e04ef3f3","type":"BasicTicker"}},"id":"99f14188-a194-4bbf-9528-2a9cc0a8b8d7","type":"Grid"},{"attributes":{"formatter":{"id":"23d47d2d-4a2d-401d-975b-49c8a6d18dd9","type":"CategoricalTickFormatter"},"major_label_orientation":1,"plot":{"id":"83f97ff1-195e-4a5c-9ea7-1b85406a63d1","subtype":"Figure","type":"Plot"},"ticker":{"id":"35a719b1-9bc7-4632-942d-5d1f54bfdf71","type":"CategoricalTicker"}},"id":"ab7b0f96-c717-428c-9309-147c3c870a62","type":"CategoricalAxis"},{"attributes":{"data_source":{"id":"dbe9ac5f-c465-4fa1-b1cc-b6c2b1b3bd12","type":"ColumnDataSource"},"glyph":{"id":"0bdbf955-caba-4ecc-8317-d349f9ffff58","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"bacec767-b5b8-43a0-9547-245d123592bb","type":"VBar"},"selection_glyph":null,"view":{"id":"9269be99-9053-4744-a53a-47d716a33ba2","type":"CDSView"}},"id":"9115b33a-b702-48f5-b3dc-4bc7e936c0c8","type":"GlyphRenderer"},{"attributes":{},"id":"23d47d2d-4a2d-401d-975b-49c8a6d18dd9","type":"CategoricalTickFormatter"},{"attributes":{"formatter":{"id":"83af63f1-3bcb-45fd-ad79-982b0defb122","type":"BasicTickFormatter"},"plot":{"id":"83f97ff1-195e-4a5c-9ea7-1b85406a63d1","subtype":"Figure","type":"Plot"},"ticker":{"id":"b49102d7-09dc-419e-9b76-0454e04ef3f3","type":"BasicTicker"}},"id":"b4af7a70-2e2c-45dc-96f1-6bcebe25060f","type":"LinearAxis"},{"attributes":{"source":{"id":"dbe9ac5f-c465-4fa1-b1cc-b6c2b1b3bd12","type":"ColumnDataSource"}},"id":"9269be99-9053-4744-a53a-47d716a33ba2","type":"CDSView"},{"attributes":{"below":[{"id":"ab7b0f96-c717-428c-9309-147c3c870a62","type":"CategoricalAxis"}],"left":[{"id":"b4af7a70-2e2c-45dc-96f1-6bcebe25060f","type":"LinearAxis"}],"plot_height":350,"plot_width":800,"renderers":[{"id":"ab7b0f96-c717-428c-9309-147c3c870a62","type":"CategoricalAxis"},{"id":"bc2ecc6b-6e77-4446-849a-32db9fa52d96","type":"Grid"},{"id":"b4af7a70-2e2c-45dc-96f1-6bcebe25060f","type":"LinearAxis"},{"id":"99f14188-a194-4bbf-9528-2a9cc0a8b8d7","type":"Grid"},{"id":"9115b33a-b702-48f5-b3dc-4bc7e936c0c8","type":"GlyphRenderer"}],"title":{"id":"bac81ad7-8258-4e48-b24c-1bf3eb70a141","type":"Title"},"toolbar":{"id":"ca301a5c-f96a-4a55-b9d2-b0a9460c5407","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"5a3e15ac-e1bf-4bfc-9471-e7f269716b12","type":"FactorRange"},"x_scale":{"id":"b754f649-2aeb-4be3-a94b-efca37ae9f73","type":"CategoricalScale"},"y_range":{"id":"f6f02891-cc14-4f6b-b9c1-fab1f66bbc7a","type":"DataRange1d"},"y_scale":{"id":"ee221874-e083-42cf-9df4-2a1bcf3fd5fb","type":"LinearScale"}},"id":"83f97ff1-195e-4a5c-9ea7-1b85406a63d1","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"ee221874-e083-42cf-9df4-2a1bcf3fd5fb","type":"LinearScale"},{"attributes":{},"id":"83af63f1-3bcb-45fd-ad79-982b0defb122","type":"BasicTickFormatter"},{"attributes":{},"id":"35a719b1-9bc7-4632-942d-5d1f54bfdf71","type":"CategoricalTicker"},{"attributes":{},"id":"b754f649-2aeb-4be3-a94b-efca37ae9f73","type":"CategoricalScale"},{"attributes":{},"id":"b49102d7-09dc-419e-9b76-0454e04ef3f3","type":"BasicTicker"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"83f97ff1-195e-4a5c-9ea7-1b85406a63d1","subtype":"Figure","type":"Plot"},"ticker":{"id":"35a719b1-9bc7-4632-942d-5d1f54bfdf71","type":"CategoricalTicker"}},"id":"bc2ecc6b-6e77-4446-849a-32db9fa52d96","type":"Grid"},{"attributes":{"callback":null,"start":10},"id":"f6f02891-cc14-4f6b-b9c1-fab1f66bbc7a","type":"DataRange1d"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto"},"id":"ca301a5c-f96a-4a55-b9d2-b0a9460c5407","type":"Toolbar"}],"root_ids":["83f97ff1-195e-4a5c-9ea7-1b85406a63d1"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"359099a5-c13b-4bc4-848d-0ac594cf079d","elementid":"929e3116-2c22-43cd-b0aa-758af83bc1ba","modelid":"83f97ff1-195e-4a5c-9ea7-1b85406a63d1"}];
+              
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+              
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>

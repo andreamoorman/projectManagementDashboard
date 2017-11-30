@@ -16,15 +16,15 @@ d3women = [.96, .965, .960, .973, .981, .988, .979, .974, .994, .997, .988]
 output_file("retention.html")
 
 # create a new plot with a title and axis labels
-scores = figure(title="Average Retention/Year", x_axis_label='x', y_axis_label='y')
+scores = figure(title="Average Retention/Year", plot_height=300, plot_width=435, x_axis_label='year', y_axis_label='retention', toolbar_location=None, tools="")
 
 # add a line renderer with legend and line thickness
-d1m = scores.line(x, d1men, line_width=4, color='#F9C7A8')
-d1w = scores.line(x, d1women, line_width=4, color='#F39A9B')
-d2m = scores.line(x, d2men, line_width=4, color='#EC6E8D')
-d2w = scores.line(x, d2women, line_width=4, color='#D74A88')
-d3m = scores.line(x, d3men, line_width=4, color='#A93790')
-d3w = scores.line(x, d3women, line_width=4, color='#7B2397')
+d1m = scores.line(x, d1men, line_width=4, color='#FCB711')
+d1w = scores.line(x, d1women, line_width=4, color='#F37021')
+d2m = scores.line(x, d2men, line_width=4, color='#CC004C')
+d2w = scores.line(x, d2women, line_width=4, color='#6460AA')
+d3m = scores.line(x, d3men, line_width=4, color='#0089D0')
+d3w = scores.line(x, d3women, line_width=4, color='#0DB14B')
 
 legend = Legend(items=[
     ("D1 Men",   [d1m]),

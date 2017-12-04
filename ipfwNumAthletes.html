@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="92d4a216-a733-43e6-9605-aaebed7c8f99"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"8bd7e898-d653-4c8e-ab2b-fffeb5e4c42f":{"roots":{"references":[{"attributes":{"source":{"id":"493aafa8-59de-4d83-aa9e-ee756f207b9d","type":"ColumnDataSource"}},"id":"c771502a-bd07-4f78-9fd8-74cecbba74bd","type":"CDSView"},{"attributes":{"end":2,"factors":["Total Athletes","Men Athletes","Women Athletes"],"palette":["#CC004C","#6460AA","#0DB14B"],"start":1},"id":"b3fc622f-cfc6-47ff-abb8-a2c627d7b1d0","type":"CategoricalColorMapper"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"ed2ee64d-bfb2-4387-b2cf-88377fb82d31","subtype":"Figure","type":"Plot"},"ticker":{"id":"e5e0df66-7d92-4ea0-ac0e-c5139a2f2f36","type":"CategoricalTicker"}},"id":"3111f9f5-d570-4cd8-9094-7935cac0c888","type":"Grid"},{"attributes":{"callback":null,"column_names":["x","counts"],"data":{"counts":[186,81,105,200,88,112,192,90,102,200,89,111,202,91,111,215,90,125,219,99,120,221,98,123,222,93,129,230,101,129,241,95,146],"x":[["2004","Total Athletes"],["2004","Men Athletes"],["2004","Women Athletes"],["2005","Total Athletes"],["2005","Men Athletes"],["2005","Women Athletes"],["2006","Total Athletes"],["2006","Men Athletes"],["2006","Women Athletes"],["2007","Total Athletes"],["2007","Men Athletes"],["2007","Women Athletes"],["2008","Total Athletes"],["2008","Men Athletes"],["2008","Women Athletes"],["2009","Total Athletes"],["2009","Men Athletes"],["2009","Women Athletes"],["2010","Total Athletes"],["2010","Men Athletes"],["2010","Women Athletes"],["2011","Total Athletes"],["2011","Men Athletes"],["2011","Women Athletes"],["2012","Total Athletes"],["2012","Men Athletes"],["2012","Women Athletes"],["2013","Total Athletes"],["2013","Men Athletes"],["2013","Women Athletes"],["2014","Total Athletes"],["2014","Men Athletes"],["2014","Women Athletes"]]}},"id":"493aafa8-59de-4d83-aa9e-ee756f207b9d","type":"ColumnDataSource"},{"attributes":{"formatter":{"id":"3b0f3b07-ead2-4777-b2d6-56b0eb56967a","type":"BasicTickFormatter"},"plot":{"id":"ed2ee64d-bfb2-4387-b2cf-88377fb82d31","subtype":"Figure","type":"Plot"},"ticker":{"id":"85948017-a7d4-406a-a7e2-d341b51cd578","type":"BasicTicker"}},"id":"aa259f42-5d71-47bb-a33d-a29c3a3dc1c3","type":"LinearAxis"},{"attributes":{"dimension":1,"plot":{"id":"ed2ee64d-bfb2-4387-b2cf-88377fb82d31","subtype":"Figure","type":"Plot"},"ticker":{"id":"85948017-a7d4-406a-a7e2-d341b51cd578","type":"BasicTicker"}},"id":"325c8125-0ea8-4def-9e30-bba5a560686d","type":"Grid"},{"attributes":{},"id":"e5e0df66-7d92-4ea0-ac0e-c5139a2f2f36","type":"CategoricalTicker"},{"attributes":{},"id":"0cb0434d-223c-42a3-9718-167c6d2ba8ea","type":"CategoricalTickFormatter"},{"attributes":{},"id":"3b0f3b07-ead2-4777-b2d6-56b0eb56967a","type":"BasicTickFormatter"},{"attributes":{"plot":null,"text":"IPFW Number of Athletes Per Year"},"id":"9bba5c02-a90d-4b16-ae7c-c791b2441ae2","type":"Title"},{"attributes":{"data_source":{"id":"493aafa8-59de-4d83-aa9e-ee756f207b9d","type":"ColumnDataSource"},"glyph":{"id":"3492ecd6-657b-4424-9ea8-e0484a570ff8","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"07edb8a3-f27a-4624-9f99-4d30b2c3cde9","type":"VBar"},"selection_glyph":null,"view":{"id":"c771502a-bd07-4f78-9fd8-74cecbba74bd","type":"CDSView"}},"id":"351ed304-7dec-423d-86fc-b063a4d29a54","type":"GlyphRenderer"},{"attributes":{"callback":null,"factors":[["2004","Total Athletes"],["2004","Men Athletes"],["2004","Women Athletes"],["2005","Total Athletes"],["2005","Men Athletes"],["2005","Women Athletes"],["2006","Total Athletes"],["2006","Men Athletes"],["2006","Women Athletes"],["2007","Total Athletes"],["2007","Men Athletes"],["2007","Women Athletes"],["2008","Total Athletes"],["2008","Men Athletes"],["2008","Women Athletes"],["2009","Total Athletes"],["2009","Men Athletes"],["2009","Women Athletes"],["2010","Total Athletes"],["2010","Men Athletes"],["2010","Women Athletes"],["2011","Total Athletes"],["2011","Men Athletes"],["2011","Women Athletes"],["2012","Total Athletes"],["2012","Men Athletes"],["2012","Women Athletes"],["2013","Total Athletes"],["2013","Men Athletes"],["2013","Women Athletes"],["2014","Total Athletes"],["2014","Men Athletes"],["2014","Women Athletes"]],"range_padding":0.025},"id":"ddefa289-8323-4ee7-859f-8c1d2e73e59e","type":"FactorRange"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"07edb8a3-f27a-4624-9f99-4d30b2c3cde9","type":"VBar"},{"attributes":{"fill_color":{"field":"x","transform":{"id":"b3fc622f-cfc6-47ff-abb8-a2c627d7b1d0","type":"CategoricalColorMapper"}},"line_color":{"value":"white"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"3492ecd6-657b-4424-9ea8-e0484a570ff8","type":"VBar"},{"attributes":{},"id":"08c7e44e-914b-4608-b9f5-e09cd16a6687","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"0cb0434d-223c-42a3-9718-167c6d2ba8ea","type":"CategoricalTickFormatter"},"major_label_orientation":1,"plot":{"id":"ed2ee64d-bfb2-4387-b2cf-88377fb82d31","subtype":"Figure","type":"Plot"},"ticker":{"id":"e5e0df66-7d92-4ea0-ac0e-c5139a2f2f36","type":"CategoricalTicker"}},"id":"572dc7ee-ca64-418d-8d6f-9e4adc117ae5","type":"CategoricalAxis"},{"attributes":{"below":[{"id":"572dc7ee-ca64-418d-8d6f-9e4adc117ae5","type":"CategoricalAxis"}],"left":[{"id":"aa259f42-5d71-47bb-a33d-a29c3a3dc1c3","type":"LinearAxis"}],"plot_height":250,"plot_width":1300,"renderers":[{"id":"572dc7ee-ca64-418d-8d6f-9e4adc117ae5","type":"CategoricalAxis"},{"id":"3111f9f5-d570-4cd8-9094-7935cac0c888","type":"Grid"},{"id":"aa259f42-5d71-47bb-a33d-a29c3a3dc1c3","type":"LinearAxis"},{"id":"325c8125-0ea8-4def-9e30-bba5a560686d","type":"Grid"},{"id":"351ed304-7dec-423d-86fc-b063a4d29a54","type":"GlyphRenderer"}],"title":{"id":"9bba5c02-a90d-4b16-ae7c-c791b2441ae2","type":"Title"},"toolbar":{"id":"3b01f5a5-5c3a-4c86-84cf-9664b6d66020","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"ddefa289-8323-4ee7-859f-8c1d2e73e59e","type":"FactorRange"},"x_scale":{"id":"08c7e44e-914b-4608-b9f5-e09cd16a6687","type":"CategoricalScale"},"y_range":{"id":"0251e3c5-2eef-450a-aac1-1f5489c2e057","type":"DataRange1d"},"y_scale":{"id":"c8c6bb12-4ca1-4416-b1c4-562853b8e5e3","type":"LinearScale"}},"id":"ed2ee64d-bfb2-4387-b2cf-88377fb82d31","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"c8c6bb12-4ca1-4416-b1c4-562853b8e5e3","type":"LinearScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto"},"id":"3b01f5a5-5c3a-4c86-84cf-9664b6d66020","type":"Toolbar"},{"attributes":{"callback":null,"start":10},"id":"0251e3c5-2eef-450a-aac1-1f5489c2e057","type":"DataRange1d"},{"attributes":{},"id":"85948017-a7d4-406a-a7e2-d341b51cd578","type":"BasicTicker"}],"root_ids":["ed2ee64d-bfb2-4387-b2cf-88377fb82d31"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"8bd7e898-d653-4c8e-ab2b-fffeb5e4c42f","elementid":"92d4a216-a733-43e6-9605-aaebed7c8f99","modelid":"ed2ee64d-bfb2-4387-b2cf-88377fb82d31"}];
+              
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+              
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="7fba343b-8095-42b1-a6a4-322531cf07a5"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"ec5ee0b3-34fd-47c3-91fa-f14da3e5ef4b":{"roots":{"references":[{"attributes":{"line_color":{"value":"#6460AA"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"24d71744-f502-4ad8-870e-95ea4372c703","type":"Line"},{"attributes":{"data_source":{"id":"cdfe0dfe-6c26-46a9-8efc-a8d13075a32e","type":"ColumnDataSource"},"glyph":{"id":"91732896-fa25-46bb-9452-ca150b933ded","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"cb940d62-1bb8-403a-a3b9-6f8c7810c69b","type":"Line"},"selection_glyph":null,"view":{"id":"40b51381-e618-4466-a623-cc5d18d5b6a1","type":"CDSView"}},"id":"a443981f-faf5-403f-b664-d56c680e1989","type":"GlyphRenderer"},{"attributes":{"callback":null,"column_names":["x","y"],"data":{"x":[2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014],"y":[1,1,1,0.958,1,0.958,1,0.958,0.92,0.955,0.909]}},"id":"cdfe0dfe-6c26-46a9-8efc-a8d13075a32e","type":"ColumnDataSource"},{"attributes":{"dimension":1,"plot":{"id":"b22b6e78-3ec7-4a46-8ef8-b385ff1a5e4f","subtype":"Figure","type":"Plot"},"ticker":{"id":"fa12bc94-b309-4bbf-a377-6d46d548e254","type":"BasicTicker"}},"id":"ac0546e0-c792-484d-9fbf-a849da9fa1e3","type":"Grid"},{"attributes":{},"id":"c58c58e4-5242-417f-ae6f-3e88357475e5","type":"LinearScale"},{"attributes":{"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"9801374a-c587-471e-9f28-9f102daba8b9","type":"Line"},{"attributes":{"axis_label":"retention","formatter":{"id":"addbed9f-a973-469e-839d-7ee4347cf6b5","type":"BasicTickFormatter"},"plot":{"id":"b22b6e78-3ec7-4a46-8ef8-b385ff1a5e4f","subtype":"Figure","type":"Plot"},"ticker":{"id":"fa12bc94-b309-4bbf-a377-6d46d548e254","type":"BasicTicker"}},"id":"07634229-bce9-4d24-ad44-8bb12c145f94","type":"LinearAxis"},{"attributes":{"items":[{"id":"1cb123fe-67d4-4b11-a4e3-f04a3f1fae95","type":"LegendItem"},{"id":"7815f275-c0be-4d11-9dac-058c6467a3eb","type":"LegendItem"}],"location":[0,0],"plot":{"id":"b22b6e78-3ec7-4a46-8ef8-b385ff1a5e4f","subtype":"Figure","type":"Plot"}},"id":"b68570e4-95d6-404c-9c5c-134c17fbde41","type":"Legend"},{"attributes":{"line_color":{"value":"#0DB14B"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"91732896-fa25-46bb-9452-ca150b933ded","type":"Line"},{"attributes":{},"id":"09123500-a344-4ca1-bc94-3e2a690dc875","type":"LinearScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto"},"id":"7c8837ff-9c97-4b0b-8ce9-fb13f2f586e1","type":"Toolbar"},{"attributes":{"source":{"id":"cdfe0dfe-6c26-46a9-8efc-a8d13075a32e","type":"ColumnDataSource"}},"id":"40b51381-e618-4466-a623-cc5d18d5b6a1","type":"CDSView"},{"attributes":{"label":{"value":"Men's Volleyball"},"renderers":[{"id":"4066170f-dcbe-4910-8dd2-67d42a12b82e","type":"GlyphRenderer"}]},"id":"1cb123fe-67d4-4b11-a4e3-f04a3f1fae95","type":"LegendItem"},{"attributes":{},"id":"72ef763e-565e-487a-934e-e1c44fc98ccd","type":"BasicTickFormatter"},{"attributes":{},"id":"fa12bc94-b309-4bbf-a377-6d46d548e254","type":"BasicTicker"},{"attributes":{"label":{"value":"Women's Volleyball"},"renderers":[{"id":"a443981f-faf5-403f-b664-d56c680e1989","type":"GlyphRenderer"}]},"id":"7815f275-c0be-4d11-9dac-058c6467a3eb","type":"LegendItem"},{"attributes":{"data_source":{"id":"638ebc39-d1a7-479f-a622-cedf1ebc5798","type":"ColumnDataSource"},"glyph":{"id":"24d71744-f502-4ad8-870e-95ea4372c703","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"9801374a-c587-471e-9f28-9f102daba8b9","type":"Line"},"selection_glyph":null,"view":{"id":"cf443888-2760-40c2-b00b-7aa0441713a9","type":"CDSView"}},"id":"4066170f-dcbe-4910-8dd2-67d42a12b82e","type":"GlyphRenderer"},{"attributes":{"source":{"id":"638ebc39-d1a7-479f-a622-cedf1ebc5798","type":"ColumnDataSource"}},"id":"cf443888-2760-40c2-b00b-7aa0441713a9","type":"CDSView"},{"attributes":{"axis_label":"year","formatter":{"id":"72ef763e-565e-487a-934e-e1c44fc98ccd","type":"BasicTickFormatter"},"plot":{"id":"b22b6e78-3ec7-4a46-8ef8-b385ff1a5e4f","subtype":"Figure","type":"Plot"},"ticker":{"id":"2c5ec15d-1aa9-4813-b214-26db925dda35","type":"BasicTicker"}},"id":"07750b18-cb95-423d-a8bd-0f90f108fea6","type":"LinearAxis"},{"attributes":{"plot":{"id":"b22b6e78-3ec7-4a46-8ef8-b385ff1a5e4f","subtype":"Figure","type":"Plot"},"ticker":{"id":"2c5ec15d-1aa9-4813-b214-26db925dda35","type":"BasicTicker"}},"id":"9d8bd2ef-9a3a-4cb9-a4dd-6a1c0fc8de58","type":"Grid"},{"attributes":{"callback":null},"id":"67478af5-a530-4715-9531-8bfb696a1604","type":"DataRange1d"},{"attributes":{},"id":"addbed9f-a973-469e-839d-7ee4347cf6b5","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"07750b18-cb95-423d-a8bd-0f90f108fea6","type":"LinearAxis"}],"left":[{"id":"07634229-bce9-4d24-ad44-8bb12c145f94","type":"LinearAxis"}],"plot_height":300,"plot_width":435,"renderers":[{"id":"07750b18-cb95-423d-a8bd-0f90f108fea6","type":"LinearAxis"},{"id":"9d8bd2ef-9a3a-4cb9-a4dd-6a1c0fc8de58","type":"Grid"},{"id":"07634229-bce9-4d24-ad44-8bb12c145f94","type":"LinearAxis"},{"id":"ac0546e0-c792-484d-9fbf-a849da9fa1e3","type":"Grid"},{"id":"4066170f-dcbe-4910-8dd2-67d42a12b82e","type":"GlyphRenderer"},{"id":"a443981f-faf5-403f-b664-d56c680e1989","type":"GlyphRenderer"},{"id":"b68570e4-95d6-404c-9c5c-134c17fbde41","type":"Legend"}],"right":[{"id":"b68570e4-95d6-404c-9c5c-134c17fbde41","type":"Legend"}],"title":{"id":"43103a77-4a29-4ace-9e2b-946550054580","type":"Title"},"toolbar":{"id":"7c8837ff-9c97-4b0b-8ce9-fb13f2f586e1","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"06b4164e-a4b9-46ca-b40e-204664234560","type":"DataRange1d"},"x_scale":{"id":"09123500-a344-4ca1-bc94-3e2a690dc875","type":"LinearScale"},"y_range":{"id":"67478af5-a530-4715-9531-8bfb696a1604","type":"DataRange1d"},"y_scale":{"id":"c58c58e4-5242-417f-ae6f-3e88357475e5","type":"LinearScale"}},"id":"b22b6e78-3ec7-4a46-8ef8-b385ff1a5e4f","subtype":"Figure","type":"Plot"},{"attributes":{"plot":null,"text":"IPFW Volleyball Retention/Year"},"id":"43103a77-4a29-4ace-9e2b-946550054580","type":"Title"},{"attributes":{"callback":null,"column_names":["x","y"],"data":{"x":[2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014],"y":[0.895,1,1,0.962,0.87,0.955,1,1,0.905,1,1]}},"id":"638ebc39-d1a7-479f-a622-cedf1ebc5798","type":"ColumnDataSource"},{"attributes":{"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"cb940d62-1bb8-403a-a3b9-6f8c7810c69b","type":"Line"},{"attributes":{},"id":"2c5ec15d-1aa9-4813-b214-26db925dda35","type":"BasicTicker"},{"attributes":{"callback":null},"id":"06b4164e-a4b9-46ca-b40e-204664234560","type":"DataRange1d"}],"root_ids":["b22b6e78-3ec7-4a46-8ef8-b385ff1a5e4f"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"ec5ee0b3-34fd-47c3-91fa-f14da3e5ef4b","elementid":"7fba343b-8095-42b1-a6a4-322531cf07a5","modelid":"b22b6e78-3ec7-4a46-8ef8-b385ff1a5e4f"}];
+              
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+              
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>

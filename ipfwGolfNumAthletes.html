@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="92e9b8d4-28e2-4c98-a5f9-7b6fab3f8f5f"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"4d132752-ff36-4b88-8081-699504456f85":{"roots":{"references":[{"attributes":{"callback":null,"column_names":["x","counts"],"data":{"counts":[6,5,9,5,8,7,8,7,6,7,9,6,9,7,9,9,9,7,9,6],"x":[["2005","Men Athletes"],["2005","Women Athletes"],["2006","Men Athletes"],["2006","Women Athletes"],["2007","Men Athletes"],["2007","Women Athletes"],["2008","Men Athletes"],["2008","Women Athletes"],["2009","Men Athletes"],["2009","Women Athletes"],["2010","Men Athletes"],["2010","Women Athletes"],["2011","Men Athletes"],["2011","Women Athletes"],["2012","Men Athletes"],["2012","Women Athletes"],["2013","Men Athletes"],["2013","Women Athletes"],["2014","Men Athletes"],["2014","Women Athletes"]]}},"id":"c376ff1d-7d8b-403b-8903-091c3863d855","type":"ColumnDataSource"},{"attributes":{"data_source":{"id":"c376ff1d-7d8b-403b-8903-091c3863d855","type":"ColumnDataSource"},"glyph":{"id":"e576ad53-ea47-4da9-ac62-dd993f323c5c","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"7aa0da9b-4d41-41bc-b6a4-8f82d1688c31","type":"VBar"},"selection_glyph":null,"view":{"id":"b3598409-f2af-4634-bed4-d374bf245c07","type":"CDSView"}},"id":"87d5b9f6-8b53-4c9c-b15b-8c57da100b25","type":"GlyphRenderer"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"2c0b77fa-a636-4fb6-b069-049b1706d5ca","subtype":"Figure","type":"Plot"},"ticker":{"id":"980be29a-bbc5-4c41-8151-1abf9ead6324","type":"CategoricalTicker"}},"id":"44c28ace-7511-46f9-8b6a-e9293e258320","type":"Grid"},{"attributes":{"below":[{"id":"199d2e5f-58e0-4f69-94a4-0ea32b43db35","type":"CategoricalAxis"}],"left":[{"id":"0d6a53b8-8203-441d-97b5-61132e985381","type":"LinearAxis"}],"plot_height":250,"plot_width":1300,"renderers":[{"id":"199d2e5f-58e0-4f69-94a4-0ea32b43db35","type":"CategoricalAxis"},{"id":"44c28ace-7511-46f9-8b6a-e9293e258320","type":"Grid"},{"id":"0d6a53b8-8203-441d-97b5-61132e985381","type":"LinearAxis"},{"id":"cd9e1d30-660c-4c1c-91fa-2f2b0f604a48","type":"Grid"},{"id":"87d5b9f6-8b53-4c9c-b15b-8c57da100b25","type":"GlyphRenderer"}],"title":{"id":"6f585cd9-fe6a-41e8-b37c-25a39d6ffcc6","type":"Title"},"toolbar":{"id":"d8eb3b6c-7809-4005-ad0e-e49a3f4bb647","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"f9448037-a66d-4758-98db-bce1b9b46bee","type":"FactorRange"},"x_scale":{"id":"ef2830e1-4b70-41ff-935b-cc4859b6527e","type":"CategoricalScale"},"y_range":{"id":"614066c6-4021-4821-aaa5-89916d329493","type":"DataRange1d"},"y_scale":{"id":"8d577590-1fa2-4705-90dc-7250212bb508","type":"LinearScale"}},"id":"2c0b77fa-a636-4fb6-b069-049b1706d5ca","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"start":0},"id":"614066c6-4021-4821-aaa5-89916d329493","type":"DataRange1d"},{"attributes":{},"id":"8d577590-1fa2-4705-90dc-7250212bb508","type":"LinearScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto"},"id":"d8eb3b6c-7809-4005-ad0e-e49a3f4bb647","type":"Toolbar"},{"attributes":{"plot":null,"text":"IPFW Number of Golf Athletes Per Year"},"id":"6f585cd9-fe6a-41e8-b37c-25a39d6ffcc6","type":"Title"},{"attributes":{},"id":"1823c09e-dc7a-4147-8df7-8f261b64f967","type":"BasicTickFormatter"},{"attributes":{"fill_color":{"field":"x","transform":{"id":"afe8810e-1c0a-4ad5-9fa9-221d58dc6342","type":"CategoricalColorMapper"}},"line_color":{"value":"white"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"e576ad53-ea47-4da9-ac62-dd993f323c5c","type":"VBar"},{"attributes":{"dimension":1,"plot":{"id":"2c0b77fa-a636-4fb6-b069-049b1706d5ca","subtype":"Figure","type":"Plot"},"ticker":{"id":"d32d5db6-1378-407e-ad7e-4cd75af70d3a","type":"BasicTicker"}},"id":"cd9e1d30-660c-4c1c-91fa-2f2b0f604a48","type":"Grid"},{"attributes":{},"id":"980be29a-bbc5-4c41-8151-1abf9ead6324","type":"CategoricalTicker"},{"attributes":{},"id":"d32d5db6-1378-407e-ad7e-4cd75af70d3a","type":"BasicTicker"},{"attributes":{"source":{"id":"c376ff1d-7d8b-403b-8903-091c3863d855","type":"ColumnDataSource"}},"id":"b3598409-f2af-4634-bed4-d374bf245c07","type":"CDSView"},{"attributes":{},"id":"ef2830e1-4b70-41ff-935b-cc4859b6527e","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"1823c09e-dc7a-4147-8df7-8f261b64f967","type":"BasicTickFormatter"},"plot":{"id":"2c0b77fa-a636-4fb6-b069-049b1706d5ca","subtype":"Figure","type":"Plot"},"ticker":{"id":"d32d5db6-1378-407e-ad7e-4cd75af70d3a","type":"BasicTicker"}},"id":"0d6a53b8-8203-441d-97b5-61132e985381","type":"LinearAxis"},{"attributes":{},"id":"5a3aac18-6507-4031-8fee-ca7a8ee22569","type":"CategoricalTickFormatter"},{"attributes":{"formatter":{"id":"5a3aac18-6507-4031-8fee-ca7a8ee22569","type":"CategoricalTickFormatter"},"major_label_orientation":1,"plot":{"id":"2c0b77fa-a636-4fb6-b069-049b1706d5ca","subtype":"Figure","type":"Plot"},"ticker":{"id":"980be29a-bbc5-4c41-8151-1abf9ead6324","type":"CategoricalTicker"}},"id":"199d2e5f-58e0-4f69-94a4-0ea32b43db35","type":"CategoricalAxis"},{"attributes":{"end":2,"factors":["Men Athletes","Women Athletes"],"palette":["#6460AA","#0DB14B"],"start":1},"id":"afe8810e-1c0a-4ad5-9fa9-221d58dc6342","type":"CategoricalColorMapper"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"7aa0da9b-4d41-41bc-b6a4-8f82d1688c31","type":"VBar"},{"attributes":{"callback":null,"factors":[["2005","Men Athletes"],["2005","Women Athletes"],["2006","Men Athletes"],["2006","Women Athletes"],["2007","Men Athletes"],["2007","Women Athletes"],["2008","Men Athletes"],["2008","Women Athletes"],["2009","Men Athletes"],["2009","Women Athletes"],["2010","Men Athletes"],["2010","Women Athletes"],["2011","Men Athletes"],["2011","Women Athletes"],["2012","Men Athletes"],["2012","Women Athletes"],["2013","Men Athletes"],["2013","Women Athletes"],["2014","Men Athletes"],["2014","Women Athletes"]],"range_padding":0.025},"id":"f9448037-a66d-4758-98db-bce1b9b46bee","type":"FactorRange"}],"root_ids":["2c0b77fa-a636-4fb6-b069-049b1706d5ca"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"4d132752-ff36-4b88-8081-699504456f85","elementid":"92e9b8d4-28e2-4c98-a5f9-7b6fab3f8f5f","modelid":"2c0b77fa-a636-4fb6-b069-049b1706d5ca"}];
+              
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+              
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>

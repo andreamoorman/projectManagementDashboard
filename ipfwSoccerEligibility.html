@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="442e9603-fb57-4700-a8bf-d9ff52e9799b"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"488a0693-e2f2-4b4b-9b4c-18a35a758fc0":{"roots":{"references":[{"attributes":{"label":{"value":"Women's Soccer"},"renderers":[{"id":"55fe1356-23f2-48cb-8771-0341417f95ed","type":"GlyphRenderer"}]},"id":"9ca7a4a8-0641-4419-8697-2277d5aaced0","type":"LegendItem"},{"attributes":{"callback":null,"column_names":["y","x"],"data":{"x":[2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014],"y":[1,0.972,0.939,0.966,0.841,0.933,0.958,0.952,0.846,0.909,0.974]}},"id":"93fb142e-399b-4461-a86a-5b647348a25d","type":"ColumnDataSource"},{"attributes":{},"id":"3f212f9f-5576-4d6b-b290-2c96e2cb6a63","type":"BasicTicker"},{"attributes":{"below":[{"id":"b79b75d3-c38d-4466-aa20-0ac39969fa8b","type":"LinearAxis"}],"left":[{"id":"88dfc462-0598-4651-be52-d7bdaa014d2d","type":"LinearAxis"}],"plot_height":300,"plot_width":435,"renderers":[{"id":"b79b75d3-c38d-4466-aa20-0ac39969fa8b","type":"LinearAxis"},{"id":"e7b97075-8b72-4abb-99f7-5a261218b9cc","type":"Grid"},{"id":"88dfc462-0598-4651-be52-d7bdaa014d2d","type":"LinearAxis"},{"id":"c5c4588c-0859-4e0d-bb88-fa50dfa71f35","type":"Grid"},{"id":"907453ec-3c39-4b80-99f9-7332253bf318","type":"GlyphRenderer"},{"id":"55fe1356-23f2-48cb-8771-0341417f95ed","type":"GlyphRenderer"},{"id":"1f2ba854-0382-4832-9415-f3a4617504d0","type":"Legend"}],"right":[{"id":"1f2ba854-0382-4832-9415-f3a4617504d0","type":"Legend"}],"title":{"id":"6408a78f-bf7e-4766-bf33-1de0db1c8781","type":"Title"},"toolbar":{"id":"70d1c0b0-d788-486d-9862-767e2f054a20","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"62c37eb2-55ec-4726-86fc-f8230b707b8a","type":"DataRange1d"},"x_scale":{"id":"02444adf-f970-4010-957f-5ee5c8ea88e0","type":"LinearScale"},"y_range":{"id":"6a5ed522-f0db-4032-9392-149b2ad2dc1c","type":"DataRange1d"},"y_scale":{"id":"80c55d3a-b9de-470b-92a1-3c0259649728","type":"LinearScale"}},"id":"fffc0444-8ede-4cb8-9af4-dda0d7fa749f","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":"year","formatter":{"id":"001764a5-2dea-494c-ae22-12436afa5dab","type":"BasicTickFormatter"},"plot":{"id":"fffc0444-8ede-4cb8-9af4-dda0d7fa749f","subtype":"Figure","type":"Plot"},"ticker":{"id":"36c85bb9-85c4-4186-939c-ee101ccf47fe","type":"BasicTicker"}},"id":"b79b75d3-c38d-4466-aa20-0ac39969fa8b","type":"LinearAxis"},{"attributes":{"callback":null},"id":"6a5ed522-f0db-4032-9392-149b2ad2dc1c","type":"DataRange1d"},{"attributes":{"line_color":{"value":"#6460AA"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"fe94fecc-e486-45be-b4e7-2f09beeaa070","type":"Line"},{"attributes":{"axis_label":"eligibility","formatter":{"id":"008c8003-85aa-4b0d-9d3c-ba75773b3e94","type":"BasicTickFormatter"},"plot":{"id":"fffc0444-8ede-4cb8-9af4-dda0d7fa749f","subtype":"Figure","type":"Plot"},"ticker":{"id":"3f212f9f-5576-4d6b-b290-2c96e2cb6a63","type":"BasicTicker"}},"id":"88dfc462-0598-4651-be52-d7bdaa014d2d","type":"LinearAxis"},{"attributes":{"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"3d898dc3-6bff-4fbe-8f70-b3bf7e8c9281","type":"Line"},{"attributes":{},"id":"80c55d3a-b9de-470b-92a1-3c0259649728","type":"LinearScale"},{"attributes":{"label":{"value":"Men's Soccer"},"renderers":[{"id":"907453ec-3c39-4b80-99f9-7332253bf318","type":"GlyphRenderer"}]},"id":"343a33e6-9660-44bd-8118-957c3903d2c4","type":"LegendItem"},{"attributes":{"plot":{"id":"fffc0444-8ede-4cb8-9af4-dda0d7fa749f","subtype":"Figure","type":"Plot"},"ticker":{"id":"36c85bb9-85c4-4186-939c-ee101ccf47fe","type":"BasicTicker"}},"id":"e7b97075-8b72-4abb-99f7-5a261218b9cc","type":"Grid"},{"attributes":{},"id":"02444adf-f970-4010-957f-5ee5c8ea88e0","type":"LinearScale"},{"attributes":{"data_source":{"id":"2b7ee6ce-5bc7-4370-a5cf-42df88b984fd","type":"ColumnDataSource"},"glyph":{"id":"3b0b524c-8819-44fe-97cd-4e6b10ebafdb","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3a7243fa-969d-4dab-94ee-85f3b09bc1ec","type":"Line"},"selection_glyph":null,"view":{"id":"39395e7f-5ed6-4079-b263-1d5ae5b20655","type":"CDSView"}},"id":"55fe1356-23f2-48cb-8771-0341417f95ed","type":"GlyphRenderer"},{"attributes":{"plot":null,"text":"IPFW Soccer Eligibility/Year"},"id":"6408a78f-bf7e-4766-bf33-1de0db1c8781","type":"Title"},{"attributes":{"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"3a7243fa-969d-4dab-94ee-85f3b09bc1ec","type":"Line"},{"attributes":{"items":[{"id":"343a33e6-9660-44bd-8118-957c3903d2c4","type":"LegendItem"},{"id":"9ca7a4a8-0641-4419-8697-2277d5aaced0","type":"LegendItem"}],"location":[0,0],"plot":{"id":"fffc0444-8ede-4cb8-9af4-dda0d7fa749f","subtype":"Figure","type":"Plot"}},"id":"1f2ba854-0382-4832-9415-f3a4617504d0","type":"Legend"},{"attributes":{"source":{"id":"2b7ee6ce-5bc7-4370-a5cf-42df88b984fd","type":"ColumnDataSource"}},"id":"39395e7f-5ed6-4079-b263-1d5ae5b20655","type":"CDSView"},{"attributes":{"data_source":{"id":"93fb142e-399b-4461-a86a-5b647348a25d","type":"ColumnDataSource"},"glyph":{"id":"fe94fecc-e486-45be-b4e7-2f09beeaa070","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3d898dc3-6bff-4fbe-8f70-b3bf7e8c9281","type":"Line"},"selection_glyph":null,"view":{"id":"fac53549-86fc-408f-8dbe-2f9780b3fe09","type":"CDSView"}},"id":"907453ec-3c39-4b80-99f9-7332253bf318","type":"GlyphRenderer"},{"attributes":{},"id":"008c8003-85aa-4b0d-9d3c-ba75773b3e94","type":"BasicTickFormatter"},{"attributes":{},"id":"36c85bb9-85c4-4186-939c-ee101ccf47fe","type":"BasicTicker"},{"attributes":{},"id":"001764a5-2dea-494c-ae22-12436afa5dab","type":"BasicTickFormatter"},{"attributes":{"callback":null},"id":"62c37eb2-55ec-4726-86fc-f8230b707b8a","type":"DataRange1d"},{"attributes":{"callback":null,"column_names":["y","x"],"data":{"x":[2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014],"y":[0.973,0.971,0.921,1,0.917,1,1,1,0.978,0.978,0.979]}},"id":"2b7ee6ce-5bc7-4370-a5cf-42df88b984fd","type":"ColumnDataSource"},{"attributes":{"line_color":{"value":"#0DB14B"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"3b0b524c-8819-44fe-97cd-4e6b10ebafdb","type":"Line"},{"attributes":{"dimension":1,"plot":{"id":"fffc0444-8ede-4cb8-9af4-dda0d7fa749f","subtype":"Figure","type":"Plot"},"ticker":{"id":"3f212f9f-5576-4d6b-b290-2c96e2cb6a63","type":"BasicTicker"}},"id":"c5c4588c-0859-4e0d-bb88-fa50dfa71f35","type":"Grid"},{"attributes":{"source":{"id":"93fb142e-399b-4461-a86a-5b647348a25d","type":"ColumnDataSource"}},"id":"fac53549-86fc-408f-8dbe-2f9780b3fe09","type":"CDSView"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto"},"id":"70d1c0b0-d788-486d-9862-767e2f054a20","type":"Toolbar"}],"root_ids":["fffc0444-8ede-4cb8-9af4-dda0d7fa749f"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"488a0693-e2f2-4b4b-9b4c-18a35a758fc0","elementid":"442e9603-fb57-4700-a8bf-d9ff52e9799b","modelid":"fffc0444-8ede-4cb8-9af4-dda0d7fa749f"}];
+              
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+              
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>

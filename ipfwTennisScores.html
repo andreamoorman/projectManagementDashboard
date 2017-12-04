@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="00216611-1787-4fec-bf24-156dd485b81a"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"cb13f8ae-94b9-4391-8a44-dedcca99e3fa":{"roots":{"references":[{"attributes":{"axis_label":"score","formatter":{"id":"84a43873-535e-408c-986e-b171545e2134","type":"BasicTickFormatter"},"plot":{"id":"1c28fe5f-50d9-4420-8dd2-f28a2ba6558c","subtype":"Figure","type":"Plot"},"ticker":{"id":"ecaa211b-d95d-40ab-80c8-3a02c6f4f404","type":"BasicTicker"}},"id":"cbce415f-2213-41bf-b870-c8809d477f7f","type":"LinearAxis"},{"attributes":{"axis_label":"year","formatter":{"id":"c323904e-ae1b-4ea7-98b2-88b08cf0315d","type":"BasicTickFormatter"},"plot":{"id":"1c28fe5f-50d9-4420-8dd2-f28a2ba6558c","subtype":"Figure","type":"Plot"},"ticker":{"id":"f261a06a-e32e-4047-b95b-3f46e1c2b38b","type":"BasicTicker"}},"id":"5b7e1efa-88fd-45ec-89c4-69358f049a70","type":"LinearAxis"},{"attributes":{"plot":null,"text":"IPFW Tennis Score/Year"},"id":"1d22f007-f5e6-4d9e-b459-ba3b085ad286","type":"Title"},{"attributes":{"plot":{"id":"1c28fe5f-50d9-4420-8dd2-f28a2ba6558c","subtype":"Figure","type":"Plot"},"ticker":{"id":"f261a06a-e32e-4047-b95b-3f46e1c2b38b","type":"BasicTicker"}},"id":"d4e09cb7-f169-4512-ba8d-c2eaeb5b68b2","type":"Grid"},{"attributes":{"dimension":1,"plot":{"id":"1c28fe5f-50d9-4420-8dd2-f28a2ba6558c","subtype":"Figure","type":"Plot"},"ticker":{"id":"ecaa211b-d95d-40ab-80c8-3a02c6f4f404","type":"BasicTicker"}},"id":"f1d4f248-8093-4965-8a12-fe4d94196e3f","type":"Grid"},{"attributes":{"callback":null,"column_names":["x","y"],"data":{"x":[2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014],"y":[962,1000,969,1000,882,972,971,962,1000,1000,971]}},"id":"3c12776e-df83-440f-aab9-02124a5a97d9","type":"ColumnDataSource"},{"attributes":{"data_source":{"id":"b1e620be-4f47-4b70-9dde-d71f931c6109","type":"ColumnDataSource"},"glyph":{"id":"5feab664-ac7f-4c4e-a75b-f8f952d21884","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"7edd8b1f-2ca8-4e3e-9092-514754328417","type":"Line"},"selection_glyph":null,"view":{"id":"a26fdd01-4f32-49df-b41c-6ae4f9514eb9","type":"CDSView"}},"id":"cc7aa60e-7233-4332-bf49-bbce1f971013","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Women's Tennis"},"renderers":[{"id":"cc7aa60e-7233-4332-bf49-bbce1f971013","type":"GlyphRenderer"}]},"id":"15ca0077-9c41-4f91-b403-24e3a5f5cd9b","type":"LegendItem"},{"attributes":{"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"7edd8b1f-2ca8-4e3e-9092-514754328417","type":"Line"},{"attributes":{"below":[{"id":"5b7e1efa-88fd-45ec-89c4-69358f049a70","type":"LinearAxis"}],"left":[{"id":"cbce415f-2213-41bf-b870-c8809d477f7f","type":"LinearAxis"}],"plot_height":300,"plot_width":435,"renderers":[{"id":"5b7e1efa-88fd-45ec-89c4-69358f049a70","type":"LinearAxis"},{"id":"d4e09cb7-f169-4512-ba8d-c2eaeb5b68b2","type":"Grid"},{"id":"cbce415f-2213-41bf-b870-c8809d477f7f","type":"LinearAxis"},{"id":"f1d4f248-8093-4965-8a12-fe4d94196e3f","type":"Grid"},{"id":"8a210774-3dbe-4bce-b150-6f05b4b5e7ac","type":"GlyphRenderer"},{"id":"cc7aa60e-7233-4332-bf49-bbce1f971013","type":"GlyphRenderer"},{"id":"bc33c5c3-a3ed-47da-aa2e-1786b161d53e","type":"Legend"}],"right":[{"id":"bc33c5c3-a3ed-47da-aa2e-1786b161d53e","type":"Legend"}],"title":{"id":"1d22f007-f5e6-4d9e-b459-ba3b085ad286","type":"Title"},"toolbar":{"id":"0a45dcdf-66a7-46a6-bbb4-2c85f85009f0","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"9091beab-6094-479c-9632-326c3c92b676","type":"DataRange1d"},"x_scale":{"id":"2ebd2922-a66f-4895-898a-20de4ae6b079","type":"LinearScale"},"y_range":{"id":"e9b6a330-026a-4a37-a44f-0c8211341eb9","type":"DataRange1d"},"y_scale":{"id":"e3e35fac-8508-4724-a68d-5629093a03ac","type":"LinearScale"}},"id":"1c28fe5f-50d9-4420-8dd2-f28a2ba6558c","subtype":"Figure","type":"Plot"},{"attributes":{"source":{"id":"3c12776e-df83-440f-aab9-02124a5a97d9","type":"ColumnDataSource"}},"id":"727332a7-a16e-4713-a35e-361ca0dc4881","type":"CDSView"},{"attributes":{"data_source":{"id":"3c12776e-df83-440f-aab9-02124a5a97d9","type":"ColumnDataSource"},"glyph":{"id":"ef3ce596-ddf5-4e2a-a91e-ddc31167f87a","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"e3f456c3-7345-458c-877b-de135c4e4411","type":"Line"},"selection_glyph":null,"view":{"id":"727332a7-a16e-4713-a35e-361ca0dc4881","type":"CDSView"}},"id":"8a210774-3dbe-4bce-b150-6f05b4b5e7ac","type":"GlyphRenderer"},{"attributes":{"callback":null},"id":"9091beab-6094-479c-9632-326c3c92b676","type":"DataRange1d"},{"attributes":{"callback":null},"id":"e9b6a330-026a-4a37-a44f-0c8211341eb9","type":"DataRange1d"},{"attributes":{},"id":"ecaa211b-d95d-40ab-80c8-3a02c6f4f404","type":"BasicTicker"},{"attributes":{},"id":"c323904e-ae1b-4ea7-98b2-88b08cf0315d","type":"BasicTickFormatter"},{"attributes":{},"id":"f261a06a-e32e-4047-b95b-3f46e1c2b38b","type":"BasicTicker"},{"attributes":{"source":{"id":"b1e620be-4f47-4b70-9dde-d71f931c6109","type":"ColumnDataSource"}},"id":"a26fdd01-4f32-49df-b41c-6ae4f9514eb9","type":"CDSView"},{"attributes":{},"id":"2ebd2922-a66f-4895-898a-20de4ae6b079","type":"LinearScale"},{"attributes":{},"id":"e3e35fac-8508-4724-a68d-5629093a03ac","type":"LinearScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto"},"id":"0a45dcdf-66a7-46a6-bbb4-2c85f85009f0","type":"Toolbar"},{"attributes":{"label":{"value":"Men's Tennis"},"renderers":[{"id":"8a210774-3dbe-4bce-b150-6f05b4b5e7ac","type":"GlyphRenderer"}]},"id":"dcd71c69-d77b-4c13-a1ad-63ecac739200","type":"LegendItem"},{"attributes":{"callback":null,"column_names":["x","y"],"data":{"x":[2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014],"y":[1000,1000,964,1000,1000,969,1000,1000,929,1000,1000]}},"id":"b1e620be-4f47-4b70-9dde-d71f931c6109","type":"ColumnDataSource"},{"attributes":{"line_color":{"value":"#0DB14B"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"5feab664-ac7f-4c4e-a75b-f8f952d21884","type":"Line"},{"attributes":{"line_color":{"value":"#6460AA"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"ef3ce596-ddf5-4e2a-a91e-ddc31167f87a","type":"Line"},{"attributes":{"items":[{"id":"dcd71c69-d77b-4c13-a1ad-63ecac739200","type":"LegendItem"},{"id":"15ca0077-9c41-4f91-b403-24e3a5f5cd9b","type":"LegendItem"}],"location":[0,0],"plot":{"id":"1c28fe5f-50d9-4420-8dd2-f28a2ba6558c","subtype":"Figure","type":"Plot"}},"id":"bc33c5c3-a3ed-47da-aa2e-1786b161d53e","type":"Legend"},{"attributes":{"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"e3f456c3-7345-458c-877b-de135c4e4411","type":"Line"},{"attributes":{},"id":"84a43873-535e-408c-986e-b171545e2134","type":"BasicTickFormatter"}],"root_ids":["1c28fe5f-50d9-4420-8dd2-f28a2ba6558c"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"cb13f8ae-94b9-4391-8a44-dedcca99e3fa","elementid":"00216611-1787-4fec-bf24-156dd485b81a","modelid":"1c28fe5f-50d9-4420-8dd2-f28a2ba6558c"}];
+              
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+              
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>

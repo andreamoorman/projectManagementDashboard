@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="8cebebe3-0262-49cb-8e05-31d0363ea429"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"116378ee-268c-4da7-9338-8de4d8ac7d9c":{"roots":{"references":[{"attributes":{},"id":"078bf109-4483-4ac2-a2b9-55e0d1935e9c","type":"BasicTicker"},{"attributes":{"plot":null,"text":"IPFW Track Eligibility/Year"},"id":"74b80a13-f670-49fc-815c-010b15923e8e","type":"Title"},{"attributes":{"label":{"value":"Women's Outdoor Track"},"renderers":[{"id":"36e7bc6b-9cfc-400c-b16d-083ee3227b60","type":"GlyphRenderer"}]},"id":"d4f4abfd-5b43-4ad7-8db8-5c8dffd375b5","type":"LegendItem"},{"attributes":{},"id":"f31fa794-f3ae-4323-8093-c1d81f2617bc","type":"BasicTicker"},{"attributes":{"dimension":1,"plot":{"id":"7245754a-5222-46da-9e22-98f1dcb4823e","subtype":"Figure","type":"Plot"},"ticker":{"id":"078bf109-4483-4ac2-a2b9-55e0d1935e9c","type":"BasicTicker"}},"id":"fb10de5c-085d-4bdf-a325-281e101dc809","type":"Grid"},{"attributes":{},"id":"dbf9b075-f56f-4bb4-94c5-711ac54c00a0","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"3f34464e-946f-4178-9ed3-c002ff3e313f","type":"ColumnDataSource"},"glyph":{"id":"d719b6dd-ec46-4a60-a24a-4cc2ab4cf9ae","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"53929338-a4cd-46eb-af3e-62cb439e2fb9","type":"Line"},"selection_glyph":null,"view":{"id":"210d0ed4-fbdc-4518-a03a-b8a939d4d3d2","type":"CDSView"}},"id":"6aa60adb-b11c-482f-b1d3-4e884aabccf5","type":"GlyphRenderer"},{"attributes":{"items":[{"id":"22c3f734-c2fa-4716-b125-28535712b183","type":"LegendItem"},{"id":"d4f4abfd-5b43-4ad7-8db8-5c8dffd375b5","type":"LegendItem"}],"location":[0,0],"plot":{"id":"7245754a-5222-46da-9e22-98f1dcb4823e","subtype":"Figure","type":"Plot"}},"id":"cfbf5d77-0985-463e-a2e9-505ca35d36f0","type":"Legend"},{"attributes":{"callback":null,"column_names":["x","y"],"data":{"x":[2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014],"y":[0.929,0.936,0.955,1,0.813,0.972,0.97,1,1,0.907,1]}},"id":"a6303471-ed2b-4035-98b8-44dcef2d8fa1","type":"ColumnDataSource"},{"attributes":{"callback":null},"id":"e40ec00f-e28e-4f9f-a87a-224e1c36e025","type":"DataRange1d"},{"attributes":{"plot":{"id":"7245754a-5222-46da-9e22-98f1dcb4823e","subtype":"Figure","type":"Plot"},"ticker":{"id":"f31fa794-f3ae-4323-8093-c1d81f2617bc","type":"BasicTicker"}},"id":"c4918c7e-ad35-4505-b69a-356645080bd3","type":"Grid"},{"attributes":{"label":{"value":"Women's Indoor Track"},"renderers":[{"id":"6aa60adb-b11c-482f-b1d3-4e884aabccf5","type":"GlyphRenderer"}]},"id":"22c3f734-c2fa-4716-b125-28535712b183","type":"LegendItem"},{"attributes":{"line_color":{"value":"#6460AA"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"d719b6dd-ec46-4a60-a24a-4cc2ab4cf9ae","type":"Line"},{"attributes":{"callback":null},"id":"52f83045-30fc-4efb-ad44-9d1b3d3e78a9","type":"DataRange1d"},{"attributes":{"axis_label":"eligibility","formatter":{"id":"dbf9b075-f56f-4bb4-94c5-711ac54c00a0","type":"BasicTickFormatter"},"plot":{"id":"7245754a-5222-46da-9e22-98f1dcb4823e","subtype":"Figure","type":"Plot"},"ticker":{"id":"078bf109-4483-4ac2-a2b9-55e0d1935e9c","type":"BasicTicker"}},"id":"364b706e-ac4f-4c95-b870-6bacb74057f7","type":"LinearAxis"},{"attributes":{"below":[{"id":"6c66380e-06bf-4e7e-9a79-4137a3c4d41a","type":"LinearAxis"}],"left":[{"id":"364b706e-ac4f-4c95-b870-6bacb74057f7","type":"LinearAxis"}],"plot_height":300,"plot_width":435,"renderers":[{"id":"6c66380e-06bf-4e7e-9a79-4137a3c4d41a","type":"LinearAxis"},{"id":"c4918c7e-ad35-4505-b69a-356645080bd3","type":"Grid"},{"id":"364b706e-ac4f-4c95-b870-6bacb74057f7","type":"LinearAxis"},{"id":"fb10de5c-085d-4bdf-a325-281e101dc809","type":"Grid"},{"id":"6aa60adb-b11c-482f-b1d3-4e884aabccf5","type":"GlyphRenderer"},{"id":"36e7bc6b-9cfc-400c-b16d-083ee3227b60","type":"GlyphRenderer"},{"id":"cfbf5d77-0985-463e-a2e9-505ca35d36f0","type":"Legend"}],"right":[{"id":"cfbf5d77-0985-463e-a2e9-505ca35d36f0","type":"Legend"}],"title":{"id":"74b80a13-f670-49fc-815c-010b15923e8e","type":"Title"},"toolbar":{"id":"725250f5-0910-4db6-bf6c-988480dc831b","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"e40ec00f-e28e-4f9f-a87a-224e1c36e025","type":"DataRange1d"},"x_scale":{"id":"2b6632e5-2cd3-4e94-ad0c-409f9eccbd61","type":"LinearScale"},"y_range":{"id":"52f83045-30fc-4efb-ad44-9d1b3d3e78a9","type":"DataRange1d"},"y_scale":{"id":"c45d59df-1b97-464d-9e03-f1ef4e9b9ddc","type":"LinearScale"}},"id":"7245754a-5222-46da-9e22-98f1dcb4823e","subtype":"Figure","type":"Plot"},{"attributes":{"line_color":{"value":"#0DB14B"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"26ff94f3-0845-4774-bdb3-6973917ac33b","type":"Line"},{"attributes":{"source":{"id":"a6303471-ed2b-4035-98b8-44dcef2d8fa1","type":"ColumnDataSource"}},"id":"01c55b84-89ef-459f-850a-69e8747c164a","type":"CDSView"},{"attributes":{"data_source":{"id":"a6303471-ed2b-4035-98b8-44dcef2d8fa1","type":"ColumnDataSource"},"glyph":{"id":"26ff94f3-0845-4774-bdb3-6973917ac33b","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2f2b9e61-b75f-42a4-895a-342e578711e9","type":"Line"},"selection_glyph":null,"view":{"id":"01c55b84-89ef-459f-850a-69e8747c164a","type":"CDSView"}},"id":"36e7bc6b-9cfc-400c-b16d-083ee3227b60","type":"GlyphRenderer"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto"},"id":"725250f5-0910-4db6-bf6c-988480dc831b","type":"Toolbar"},{"attributes":{"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"2f2b9e61-b75f-42a4-895a-342e578711e9","type":"Line"},{"attributes":{"source":{"id":"3f34464e-946f-4178-9ed3-c002ff3e313f","type":"ColumnDataSource"}},"id":"210d0ed4-fbdc-4518-a03a-b8a939d4d3d2","type":"CDSView"},{"attributes":{},"id":"2b6632e5-2cd3-4e94-ad0c-409f9eccbd61","type":"LinearScale"},{"attributes":{"callback":null,"column_names":["x","y"],"data":{"x":[2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014],"y":[0.929,0.936,0.957,1,0.84,0.971,0.966,1,1,0.907,1]}},"id":"3f34464e-946f-4178-9ed3-c002ff3e313f","type":"ColumnDataSource"},{"attributes":{},"id":"70770d26-5df2-441c-a0c2-25b751fec3b7","type":"BasicTickFormatter"},{"attributes":{},"id":"c45d59df-1b97-464d-9e03-f1ef4e9b9ddc","type":"LinearScale"},{"attributes":{"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"line_width":{"value":4},"x":{"field":"x"},"y":{"field":"y"}},"id":"53929338-a4cd-46eb-af3e-62cb439e2fb9","type":"Line"},{"attributes":{"axis_label":"year","formatter":{"id":"70770d26-5df2-441c-a0c2-25b751fec3b7","type":"BasicTickFormatter"},"plot":{"id":"7245754a-5222-46da-9e22-98f1dcb4823e","subtype":"Figure","type":"Plot"},"ticker":{"id":"f31fa794-f3ae-4323-8093-c1d81f2617bc","type":"BasicTicker"}},"id":"6c66380e-06bf-4e7e-9a79-4137a3c4d41a","type":"LinearAxis"}],"root_ids":["7245754a-5222-46da-9e22-98f1dcb4823e"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"116378ee-268c-4da7-9338-8de4d8ac7d9c","elementid":"8cebebe3-0262-49cb-8e05-31d0363ea429","modelid":"7245754a-5222-46da-9e22-98f1dcb4823e"}];
+              
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+              
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>

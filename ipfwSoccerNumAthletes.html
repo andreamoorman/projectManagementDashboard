@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="63212a32-e945-4c25-b01d-9d7763ce804d"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"4ffeec1e-e01b-40c2-b7b1-33d23b6b9b33":{"roots":{"references":[{"attributes":{"formatter":{"id":"853f6a7c-0339-4913-9ca7-c4eb874bde5a","type":"BasicTickFormatter"},"plot":{"id":"bb7b55fe-5dbe-428e-821b-69dd8d19e02e","subtype":"Figure","type":"Plot"},"ticker":{"id":"06b5fc67-9fad-478a-b469-8e75bf16b784","type":"BasicTicker"}},"id":"4d59724e-4029-4f3b-9e96-368bd13f7bcb","type":"LinearAxis"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"bb7b55fe-5dbe-428e-821b-69dd8d19e02e","subtype":"Figure","type":"Plot"},"ticker":{"id":"e308bf25-f65f-4b25-a35e-5868481cd0c4","type":"CategoricalTicker"}},"id":"1194a58d-8764-4d5b-8e4c-73e50bec77dd","type":"Grid"},{"attributes":{},"id":"853f6a7c-0339-4913-9ca7-c4eb874bde5a","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"4e1c6e02-b29b-4013-8d61-f9595e3910d6","type":"ColumnDataSource"},"glyph":{"id":"1e346915-e80c-41e8-a0a9-822f9d05ca57","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"835f04c1-909b-4060-b8e0-2df76c6b1bc5","type":"VBar"},"selection_glyph":null,"view":{"id":"b7c91939-0477-4222-8870-8647ab1829e2","type":"CDSView"}},"id":"2eedb28d-02ff-4efa-bb55-8773f5c51939","type":"GlyphRenderer"},{"attributes":{"callback":null,"start":0},"id":"ac656c3e-b89c-403a-a190-a6294b41c32e","type":"DataRange1d"},{"attributes":{},"id":"b1c93c1f-a70a-4f93-8eb3-689f9050d509","type":"CategoricalTickFormatter"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto"},"id":"6b787a51-f1d4-4c56-a3bb-225490d83b5d","type":"Toolbar"},{"attributes":{"callback":null,"factors":[["2004","Men Athletes"],["2004","Women Athletes"],["2005","Men Athletes"],["2005","Women Athletes"],["2006","Men Athletes"],["2006","Women Athletes"],["2007","Men Athletes"],["2007","Women Athletes"],["2008","Men Athletes"],["2008","Women Athletes"],["2009","Men Athletes"],["2009","Women Athletes"],["2010","Men Athletes"],["2010","Women Athletes"],["2011","Men Athletes"],["2011","Women Athletes"],["2012","Men Athletes"],["2012","Women Athletes"],["2013","Men Athletes"],["2013","Women Athletes"],["2014","Men Athletes"],["2014","Women Athletes"]],"range_padding":0.025},"id":"2772caab-5bfc-45e0-969b-0020499f792a","type":"FactorRange"},{"attributes":{},"id":"0692a1e9-1bf5-431f-a8d5-ce20a4284875","type":"LinearScale"},{"attributes":{"plot":null,"text":"IPFW Number of Soccer Athletes Per Year"},"id":"930dc76a-02dc-4c7a-83d0-0ce92b4737ac","type":"Title"},{"attributes":{"dimension":1,"plot":{"id":"bb7b55fe-5dbe-428e-821b-69dd8d19e02e","subtype":"Figure","type":"Plot"},"ticker":{"id":"06b5fc67-9fad-478a-b469-8e75bf16b784","type":"BasicTicker"}},"id":"3e94247a-4c63-4ede-a21e-3fc18c488d89","type":"Grid"},{"attributes":{"formatter":{"id":"b1c93c1f-a70a-4f93-8eb3-689f9050d509","type":"CategoricalTickFormatter"},"major_label_orientation":1,"plot":{"id":"bb7b55fe-5dbe-428e-821b-69dd8d19e02e","subtype":"Figure","type":"Plot"},"ticker":{"id":"e308bf25-f65f-4b25-a35e-5868481cd0c4","type":"CategoricalTicker"}},"id":"f42f1a6e-0110-41fd-b9e4-8d1fe2aa5280","type":"CategoricalAxis"},{"attributes":{},"id":"e308bf25-f65f-4b25-a35e-5868481cd0c4","type":"CategoricalTicker"},{"attributes":{"fill_color":{"field":"x","transform":{"id":"8ea75254-6d4f-451f-b04f-29c03417e1db","type":"CategoricalColorMapper"}},"line_color":{"value":"white"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"1e346915-e80c-41e8-a0a9-822f9d05ca57","type":"VBar"},{"attributes":{"source":{"id":"4e1c6e02-b29b-4013-8d61-f9595e3910d6","type":"ColumnDataSource"}},"id":"b7c91939-0477-4222-8870-8647ab1829e2","type":"CDSView"},{"attributes":{},"id":"06b5fc67-9fad-478a-b469-8e75bf16b784","type":"BasicTicker"},{"attributes":{},"id":"2e97bf6c-7da7-40c1-b572-4486b926ec6d","type":"CategoricalScale"},{"attributes":{"below":[{"id":"f42f1a6e-0110-41fd-b9e4-8d1fe2aa5280","type":"CategoricalAxis"}],"left":[{"id":"4d59724e-4029-4f3b-9e96-368bd13f7bcb","type":"LinearAxis"}],"plot_height":250,"plot_width":1300,"renderers":[{"id":"f42f1a6e-0110-41fd-b9e4-8d1fe2aa5280","type":"CategoricalAxis"},{"id":"1194a58d-8764-4d5b-8e4c-73e50bec77dd","type":"Grid"},{"id":"4d59724e-4029-4f3b-9e96-368bd13f7bcb","type":"LinearAxis"},{"id":"3e94247a-4c63-4ede-a21e-3fc18c488d89","type":"Grid"},{"id":"2eedb28d-02ff-4efa-bb55-8773f5c51939","type":"GlyphRenderer"}],"title":{"id":"930dc76a-02dc-4c7a-83d0-0ce92b4737ac","type":"Title"},"toolbar":{"id":"6b787a51-f1d4-4c56-a3bb-225490d83b5d","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"2772caab-5bfc-45e0-969b-0020499f792a","type":"FactorRange"},"x_scale":{"id":"2e97bf6c-7da7-40c1-b572-4486b926ec6d","type":"CategoricalScale"},"y_range":{"id":"ac656c3e-b89c-403a-a190-a6294b41c32e","type":"DataRange1d"},"y_scale":{"id":"0692a1e9-1bf5-431f-a8d5-ce20a4284875","type":"LinearScale"}},"id":"bb7b55fe-5dbe-428e-821b-69dd8d19e02e","subtype":"Figure","type":"Plot"},{"attributes":{"end":2,"factors":["Men Athletes","Women Athletes"],"palette":["#6460AA","#0DB14B"],"start":1},"id":"8ea75254-6d4f-451f-b04f-29c03417e1db","type":"CategoricalColorMapper"},{"attributes":{"callback":null,"column_names":["counts","x"],"data":{"counts":[19,19,18,17,17,19,17,16,22,14,24,20,25,19,23,20,21,23,23,23,20,24],"x":[["2004","Men Athletes"],["2004","Women Athletes"],["2005","Men Athletes"],["2005","Women Athletes"],["2006","Men Athletes"],["2006","Women Athletes"],["2007","Men Athletes"],["2007","Women Athletes"],["2008","Men Athletes"],["2008","Women Athletes"],["2009","Men Athletes"],["2009","Women Athletes"],["2010","Men Athletes"],["2010","Women Athletes"],["2011","Men Athletes"],["2011","Women Athletes"],["2012","Men Athletes"],["2012","Women Athletes"],["2013","Men Athletes"],["2013","Women Athletes"],["2014","Men Athletes"],["2014","Women Athletes"]]}},"id":"4e1c6e02-b29b-4013-8d61-f9595e3910d6","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"835f04c1-909b-4060-b8e0-2df76c6b1bc5","type":"VBar"}],"root_ids":["bb7b55fe-5dbe-428e-821b-69dd8d19e02e"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"4ffeec1e-e01b-40c2-b7b1-33d23b6b9b33","elementid":"63212a32-e945-4c25-b01d-9d7763ce804d","modelid":"bb7b55fe-5dbe-428e-821b-69dd8d19e02e"}];
+              
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+              
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>

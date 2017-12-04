@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="cd5967f5-f6bf-44d3-b4e8-7fd1055a465c"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"2da7c105-e5a8-4087-aa72-201664437751":{"roots":{"references":[{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto"},"id":"96b24cde-e62a-415c-b94c-733f266ad4b5","type":"Toolbar"},{"attributes":{"fill_color":{"field":"x","transform":{"id":"ca9fb27c-63df-44b3-bce9-55ea2ef1df11","type":"CategoricalColorMapper"}},"line_color":{"value":"white"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"a7ebdfc9-899c-418b-b55c-4f576217b8d5","type":"VBar"},{"attributes":{"plot":null,"text":"IPFW Number of Baseball/Softball Athletes Per Year"},"id":"cb7624aa-7efd-4f1f-9add-82ae2af5521c","type":"Title"},{"attributes":{"data_source":{"id":"d16ac813-f8c6-45ae-bc72-13d7868bc952","type":"ColumnDataSource"},"glyph":{"id":"a7ebdfc9-899c-418b-b55c-4f576217b8d5","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"c4841d32-e6d0-4be4-9a8f-3a0df872623d","type":"VBar"},"selection_glyph":null,"view":{"id":"2e026875-9b73-47cd-be3a-8d48309d20ac","type":"CDSView"}},"id":"be465310-d404-4a12-8766-b6e20208fd3c","type":"GlyphRenderer"},{"attributes":{},"id":"022a938c-a01e-4fba-9e16-259b75c5ebdc","type":"CategoricalTickFormatter"},{"attributes":{},"id":"7c860622-1769-429e-bba6-1d62959aab0b","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"c4841d32-e6d0-4be4-9a8f-3a0df872623d","type":"VBar"},{"attributes":{"callback":null,"column_names":["x","counts"],"data":{"counts":[23,12,23,16,21,13,24,16,20,14,21,16,24,14,28,18,24,15,26,14,25,17],"x":[["2004","Mens Baseball"],["2004","Womens Softball"],["2005","Mens Baseball"],["2005","Womens Softball"],["2006","Mens Baseball"],["2006","Womens Softball"],["2007","Mens Baseball"],["2007","Womens Softball"],["2008","Mens Baseball"],["2008","Womens Softball"],["2009","Mens Baseball"],["2009","Womens Softball"],["2010","Mens Baseball"],["2010","Womens Softball"],["2011","Mens Baseball"],["2011","Womens Softball"],["2012","Mens Baseball"],["2012","Womens Softball"],["2013","Mens Baseball"],["2013","Womens Softball"],["2014","Mens Baseball"],["2014","Womens Softball"]]}},"id":"d16ac813-f8c6-45ae-bc72-13d7868bc952","type":"ColumnDataSource"},{"attributes":{},"id":"abd83787-c66d-4cba-8228-2863389381c3","type":"CategoricalTicker"},{"attributes":{},"id":"e581d7d5-08c5-413c-abdf-9c1facec19c5","type":"CategoricalScale"},{"attributes":{},"id":"d94d5a9d-06cd-44a5-b2b4-5aed039653b5","type":"BasicTicker"},{"attributes":{"callback":null,"factors":[["2004","Mens Baseball"],["2004","Womens Softball"],["2005","Mens Baseball"],["2005","Womens Softball"],["2006","Mens Baseball"],["2006","Womens Softball"],["2007","Mens Baseball"],["2007","Womens Softball"],["2008","Mens Baseball"],["2008","Womens Softball"],["2009","Mens Baseball"],["2009","Womens Softball"],["2010","Mens Baseball"],["2010","Womens Softball"],["2011","Mens Baseball"],["2011","Womens Softball"],["2012","Mens Baseball"],["2012","Womens Softball"],["2013","Mens Baseball"],["2013","Womens Softball"],["2014","Mens Baseball"],["2014","Womens Softball"]],"range_padding":0.025},"id":"23088f8a-f35f-462c-9f69-2c4f795c1810","type":"FactorRange"},{"attributes":{"formatter":{"id":"022a938c-a01e-4fba-9e16-259b75c5ebdc","type":"CategoricalTickFormatter"},"major_label_orientation":1,"plot":{"id":"2953e2bb-0d0f-42ac-ad65-1079be5383ec","subtype":"Figure","type":"Plot"},"ticker":{"id":"abd83787-c66d-4cba-8228-2863389381c3","type":"CategoricalTicker"}},"id":"4d5856b7-772e-4de4-8f65-b60711fbfbb4","type":"CategoricalAxis"},{"attributes":{"source":{"id":"d16ac813-f8c6-45ae-bc72-13d7868bc952","type":"ColumnDataSource"}},"id":"2e026875-9b73-47cd-be3a-8d48309d20ac","type":"CDSView"},{"attributes":{"end":2,"factors":["Mens Baseball","Womens Softball"],"palette":["#6460AA","#0DB14B"],"start":1},"id":"ca9fb27c-63df-44b3-bce9-55ea2ef1df11","type":"CategoricalColorMapper"},{"attributes":{},"id":"dcd661a7-9cbc-4ffc-97b7-bca5b04c6199","type":"BasicTickFormatter"},{"attributes":{"callback":null,"start":0},"id":"af2d3132-e70b-407c-92c4-945ea221cfd6","type":"DataRange1d"},{"attributes":{"dimension":1,"plot":{"id":"2953e2bb-0d0f-42ac-ad65-1079be5383ec","subtype":"Figure","type":"Plot"},"ticker":{"id":"d94d5a9d-06cd-44a5-b2b4-5aed039653b5","type":"BasicTicker"}},"id":"d8baa5e5-3218-47a4-9267-c8e8c0fa9766","type":"Grid"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"2953e2bb-0d0f-42ac-ad65-1079be5383ec","subtype":"Figure","type":"Plot"},"ticker":{"id":"abd83787-c66d-4cba-8228-2863389381c3","type":"CategoricalTicker"}},"id":"031711fc-a88b-4342-ab05-c3516fde26e7","type":"Grid"},{"attributes":{"formatter":{"id":"dcd661a7-9cbc-4ffc-97b7-bca5b04c6199","type":"BasicTickFormatter"},"plot":{"id":"2953e2bb-0d0f-42ac-ad65-1079be5383ec","subtype":"Figure","type":"Plot"},"ticker":{"id":"d94d5a9d-06cd-44a5-b2b4-5aed039653b5","type":"BasicTicker"}},"id":"649a44ec-a6b6-4b10-b7df-fb6181edffba","type":"LinearAxis"},{"attributes":{"below":[{"id":"4d5856b7-772e-4de4-8f65-b60711fbfbb4","type":"CategoricalAxis"}],"left":[{"id":"649a44ec-a6b6-4b10-b7df-fb6181edffba","type":"LinearAxis"}],"plot_height":250,"plot_width":1300,"renderers":[{"id":"4d5856b7-772e-4de4-8f65-b60711fbfbb4","type":"CategoricalAxis"},{"id":"031711fc-a88b-4342-ab05-c3516fde26e7","type":"Grid"},{"id":"649a44ec-a6b6-4b10-b7df-fb6181edffba","type":"LinearAxis"},{"id":"d8baa5e5-3218-47a4-9267-c8e8c0fa9766","type":"Grid"},{"id":"be465310-d404-4a12-8766-b6e20208fd3c","type":"GlyphRenderer"}],"title":{"id":"cb7624aa-7efd-4f1f-9add-82ae2af5521c","type":"Title"},"toolbar":{"id":"96b24cde-e62a-415c-b94c-733f266ad4b5","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"23088f8a-f35f-462c-9f69-2c4f795c1810","type":"FactorRange"},"x_scale":{"id":"e581d7d5-08c5-413c-abdf-9c1facec19c5","type":"CategoricalScale"},"y_range":{"id":"af2d3132-e70b-407c-92c4-945ea221cfd6","type":"DataRange1d"},"y_scale":{"id":"7c860622-1769-429e-bba6-1d62959aab0b","type":"LinearScale"}},"id":"2953e2bb-0d0f-42ac-ad65-1079be5383ec","subtype":"Figure","type":"Plot"}],"root_ids":["2953e2bb-0d0f-42ac-ad65-1079be5383ec"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"2da7c105-e5a8-4087-aa72-201664437751","elementid":"cd5967f5-f6bf-44d3-b4e8-7fd1055a465c","modelid":"2953e2bb-0d0f-42ac-ad65-1079be5383ec"}];
+              
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+              
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>
